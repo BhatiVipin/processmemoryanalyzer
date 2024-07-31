@@ -295,9 +295,9 @@ namespace PMA.PMAConsoleApp
             // EMAIL INFO
             emailsInfo = new Emails();
             emailsInfo.EmailTo = new List<string>();
-            emailsInfo.EmailTo.Add("msareen@ivp.in");
+            emailsInfo.EmailTo.Add("msareen@test.in");
             emailsInfo.EmailCC = new List<string>();
-            emailsInfo.EmailCC.Add("smalhotra@ivp.in");
+            emailsInfo.EmailCC.Add("smalhotra@test.in");
             emailsInfo.AttachmentPath = "";
             emailsInfo.Subject = "Server Report";
             emailsInfo.BodyContent = "Please Find the Report Attached";
